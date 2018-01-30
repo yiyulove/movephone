@@ -74,7 +74,7 @@ header span{
 	
 	border-radius: 50%;}
 	nav{
-		padding:5px 5px;
+		padding:10px 5px;
 	}
 nav ul  li{
 	width: 25%;
@@ -87,6 +87,48 @@ nav ul li img{
 .hot{
 	width: 95%;
 	height:100px ;
-	border: 1px solid black;
-	margin: 10 auto 0;
+	border: 1px solid #cccccc;
+	margin: 0 auto;
+	box-shadow: 1px 2px 5px;
+	transform: translateY(10px);
+}
+.lunbotu ul li a{
+	display: block;
+}
+.hot-up span{
+	width: 20px;
+	height: 30px;
+	display: block;
+	float: left;
+	background:url(../img/img/seckill-icon.png) no-repeat center;
+	background-size: 20px 25px;
+	background-position: 0px 4px;
+	margin-right: 5px;
+	margin-left: 5px;
+}
+.hot-up p{
+	font-size:14px;
+	color: rgb(201, 21, 35);;
+    line-height: 32px;
+    margin-left: 5px;
+    display: block;
+    width: 82px;
+}
+.daojishi{
+	float: left;
+}
+.daojishi li{
+	width: 15px;
+	height: 15px;
+	background: black;
+	float: left;
+	font-size:14px;
+	color: white;
+	text-align: center;
+	margin: 2px;
+}
+.daojishi li:nth-child(3),.daojishi li:nth-child(6){
+	background: white;
+	color: black;
+	margin: -2px 0px;
 }
