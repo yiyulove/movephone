@@ -1,177 +1,203 @@
 /*.jingdong{
-	background :#238
-}*/  
-header{
-	width: 100%;
-	height: 40px;
-	padding-left: 65px;
-	padding-right: 65px;
-	position: absolute;
-	z-index: 99;
+    background :#238
+}*/
+header {
+  width: 100%;
+  height: 40px;
+  padding-left: 65px;
+  padding-right: 65px;
+  position: absolute;
+  z-index: 99;
 }
-.logo{
-	width: 60px;
-	height: 28px;
-	background: url(../img/img/sprites.png);
-	background-size: 200px 200px;
-	background-position: 1px -105px;
-	position: absolute;
-	top: 5px;
-	left: 2px;
+.logo {
+  width: 60px;
+  height: 28px;
+  background: url(../img/img/sprites.png);
+  background-size: 200px 200px;
+  background-position: 1px -105px;
+  position: absolute;
+  top: 5px;
+  left: 2px;
 }
-header input{
-	width: 100%;
-	height: 27px;
-	border-radius: 14px;
-	margin-top: 6px;
+header input {
+  width: 100%;
+  height: 27px;
+  border-radius: 14px;
+  margin-top: 6px;
 }
-.denglu{
-	display: block;
-	width: 60px;
-	height: 28px;
-	position:absolute;
-	right: 0;
-	top: 0;
-	line-height: 40px;
-	text-align: center;
-	color: white;
+.denglu {
+  display: block;
+  width: 60px;
+  height: 28px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  line-height: 40px;
+  text-align: center;
+  color: white;
 }
-.lunbotu{
-	width: 100%;
-	overflow-x: hidden;
-	position: relative;
+.lunbotu {
+  width: 100%;
+  overflow-x: hidden;
+  position: relative;
 }
-header span{
-	width: 40px;
-	height: 40px;
-	background: url(../img/img/sprites.png);
-	background-size: 200px 200px;
-	background-position: 1px -105px;
+header span {
+  width: 40px;
+  height: 40px;
+  background: url(../img/img/sprites.png);
+  background-size: 200px 200px;
+  background-position: 1px -105px;
 }
-.ul1{
-	transition: all 0.3s linear;
-	width: 500%;
+.ul1 {
+  transition: all 0.3s linear;
+  width: 500%;
 }
-.ul1 li{
-	float: left;
-    width:20% ;
+.ul1 li {
+  float: left;
+  width: 20% ;
 }
-.ul1 li a img{
-      width: 100%;
-      display: block;
+.ul1 li a img {
+  width: 100%;
+  display: block;
 }
-.xiaoyuandian{
-	position: absolute;
-	bottom: 10px;
-	left: 50%;
+.xiaoyuandian {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
 }
-.xiaoyuandian li{
-	width: 10px;
-	height: 10px;
-	border: solid white 2px;
-	margin: 0 3px;
-	float: left;
-	
-	border-radius: 50%;}
-	nav{
-		padding:10px 5px;
-	}
-nav ul  li{
-	width: 25%;
-	text-align: center;
-	float: left;
+.xiaoyuandian li {
+  width: 10px;
+  height: 10px;
+  border: solid white 2px;
+  margin: 0 3px;
+  float: left;
+  border-radius: 50%;
 }
-nav ul li img{
-	width: 50%;
+nav {
+  padding: 10px 5px;
 }
-.hot{
-	width: 95%;
-	border: 1px solid #cccccc;
-	height: 156px;
-	margin: 0 auto;
-	box-shadow: 1px 2px 5px;
-	transform: translateY(10px);
+nav ul li {
+  width: 25%;
+  text-align: center;
+  float: left;
 }
-.lunbotu ul li a{
-	display: block;
+nav ul li img {
+  width: 50%;
 }
-.hot-up{
-	width: 100%;
-	height: 32px;
+.hot {
+  width: 98%;
+  border: 1px solid #cccccc;
+  height: 156px;
+  margin: 0 auto;
+  transform: translateY(10px);
 }
-.hot-up span{
-	width: 20px;
-	height: 30px;
-	display: block;
-	float: left;
-	background:url(../img/img/seckill-icon.png) no-repeat center;
-	background-size: 20px 25px;
-	background-position: 0px 4px;
-	margin-right: 5px;
-	margin-left: 5px;
+.lunbotu ul li a {
+  display: block;
 }
-.hot-up p{
-	font-size:14px;
-	color: rgb(201, 21, 35);;
-    line-height: 32px;
-    margin-left: 5px;
-    display: block;
-    width: 82px;
+.hot-up {
+  width: 100%;
+  height: 32px;
 }
-.daojishi{ 
-	display: block;
-	width: 145px;
-	height: 32px;
-	float: left;
-	margin-top: 6px;
-	margin-left: 5px;
+.hot-up span {
+  width: 20px;
+  height: 30px;
+  display: block;
+  float: left;
+  background: url(../img/img/seckill-icon.png) no-repeat center;
+  background-size: 20px 25px;
+  background-position: 0px 4px;
+  margin-right: 5px;
+  margin-left: 5px;
 }
-.daojishi li{
-	width: 15px;
-	height: 15px;
-	background: black;
-	float: left;
-	font-size:14px;
-	color: white;
-	text-align: center;
-	line-height: 15px;
-	margin: 2px;
+.hot-up p {
+  font-size: 14px;
+  color: #c91523;
+  line-height: 32px;
+  margin-left: 5px;
+  display: block;
+  width: 82px;
 }
-.daojishi li:nth-child(3),.daojishi li:nth-child(6){
-	background: white;
-	color: black;
-	margin: -2px 0px;
+.daojishi {
+  display: block;
+  width: 145px;
+  height: 32px;
+  float: left;
+  margin-top: 6px;
+  margin-left: 5px;
 }
-.hot-up-l{
-	width: 26%;
-	float: left;
+.daojishi li {
+  width: 15px;
+  height: 15px;
+  background: black;
+  float: left;
+  font-size: 14px;
+  color: white;
+  text-align: center;
+  line-height: 15px;
+  margin: 2px;
 }
-.more{
-	color: gray;
-	float: right;
-	line-height:30px ;
+.daojishi li:nth-child(3),
+.daojishi li:nth-child(6) {
+  background: white;
+  color: black;
+  margin: -2px 0px;
 }
-.cont{
-	width: 100%;
+.hot-up-l {
+  width: 26%;
+  float: left;
 }
-.content{
-	width: 100%;
-	margin: 0 auto;
-	display: block;
+.more {
+  color: gray;
+  float: right;
+  line-height: 30px ;
 }
-.content li{
-	width:33.2%;
-	display: block;
-	float: left;
-	text-align: center;
+.cont {
+  width: 100%;
 }
-.content li a{
-	margin:0 auto;
-	width: 60%;
-	display: block;
+.content {
+  width: 100%;
+  margin: 0 auto;
+  display: block;
 }
-.content li a img{
-	width: 100%;
-	flex: 1;
-	display: block;
+.content li {
+  width: 33.2%;
+  display: block;
+  float: left;
+  text-align: center;
+}
+.content li a {
+  margin: 0 auto;
+  width: 100%;
+  display: block;
+}
+.content li a img {
+  width: 60%;
+  flex: 1;
+  display: block;
+  margin: 0 auto;
+}
+.content li:nth-child(2) a {
+  border-right: 1px solid  gray;
+  border-left: 1px solid  gray;
+}
+.content li p:nth-child(2) {
+  color: #c91523;
+}
+.content li p:nth-child(3) {
+  text-decoration: line-through;
+}
+.content2 {
+  width: 98%;
+  height: 300px;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+.content2-up {
+  background: url;
+}
+.span1 {
+  width: 5px;
+  height: 20px;
+  background: #c91523;
+  display: block;
 }
