@@ -1,5 +1,5 @@
 window.onload=function(){
-//	move();
+	move();
 	function move(){
 	//获取li的宽度，设置ul宽度
 	var li=document.querySelector(".firest");       
@@ -7,10 +7,9 @@ window.onload=function(){
 	var ul=document.querySelector(".ul1");
 	var count=0;
 	setInterval(function(){ 
-		console.log(oli[count].style.height);
 		ul.style.transition="all 0.3s";
 		count++;
-		if(count>=5)
+		if(count>4)
 		{
 			ul.style.transition="none";
 			count=0;
