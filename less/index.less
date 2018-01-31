@@ -49,21 +49,28 @@ header span{
     background-size: 200px 200px;
     background-position: 1px -105px;
 }
+
 .ul1{
     transition: all 0.3s linear;
     width: 500%;
+    li{
+        float: left;
+        width:20% ;
+        a{
+            display: block;
+            img{
+                width: 100%;
+                display: block; 
+            }
+        }
+        p{
+            text-align: center;
+        }
+    }
+    
 }
-.ul1 li{
-    float: left;
-    width:20% ;
-}
-.ul1 li a img{
-      width: 100%;
-      display: block;
-}
-.lunbotu ul li a{
-    display: block;
-}
+
+
 .xiaoyuandian{
     position: absolute;
     bottom: 10px;
@@ -170,17 +177,22 @@ nav ul li img{
                  margin: 0 auto;
             }
         }
+        p{
+            text-align: center;
+        }
         p:nth-child(2){
              color: @red;
         }
         p:nth-child(3){
             text-decoration: line-through;
         }
-    }
-    li:nth-child(2) a{
+         li:nth-child(2) a{
+             
         border-right: 1px solid  gray;;
         border-left: 1px solid  gray;;
     }
+    }
+   
 }
 
 

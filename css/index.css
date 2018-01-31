@@ -56,12 +56,15 @@ header span {
   float: left;
   width: 20% ;
 }
+.ul1 li a {
+  display: block;
+}
 .ul1 li a img {
   width: 100%;
   display: block;
 }
-.lunbotu ul li a {
-  display: block;
+.ul1 li p {
+  text-align: center;
 }
 .xiaoyuandian {
   position: absolute;
@@ -170,13 +173,16 @@ nav ul li img {
   display: block;
   margin: 0 auto;
 }
+.content li p {
+  text-align: center;
+}
 .content li p:nth-child(2) {
   color: #c91523;
 }
 .content li p:nth-child(3) {
   text-decoration: line-through;
 }
-.content li:nth-child(2) a {
+.content li li:nth-child(2) a {
   border-right: 1px solid  gray;
   border-left: 1px solid  gray;
 }
