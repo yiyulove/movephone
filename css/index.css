@@ -60,6 +60,9 @@ header span {
   width: 100%;
   display: block;
 }
+.lunbotu ul li a {
+  display: block;
+}
 .xiaoyuandian {
   position: absolute;
   bottom: 10px;
@@ -90,9 +93,6 @@ nav ul li img {
   height: 156px;
   margin: 0 auto;
   transform: translateY(10px);
-}
-.lunbotu ul li a {
-  display: block;
 }
 .hot-up {
   width: 100%;
@@ -156,19 +156,13 @@ nav ul li img {
 }
 .content {
   width: 100%;
-  margin: 0 auto;
-  display: block;
 }
 .content li {
   width: 33.2%;
-  display: block;
   float: left;
-  text-align: center;
 }
 .content li a {
   margin: 0 auto;
-  width: 100%;
-  display: block;
 }
 .content li a img {
   width: 60%;
@@ -176,15 +170,15 @@ nav ul li img {
   display: block;
   margin: 0 auto;
 }
-.content li:nth-child(2) a {
-  border-right: 1px solid  gray;
-  border-left: 1px solid  gray;
-}
 .content li p:nth-child(2) {
   color: #c91523;
 }
 .content li p:nth-child(3) {
   text-decoration: line-through;
+}
+.content li:nth-child(2) a {
+  border-right: 1px solid  gray;
+  border-left: 1px solid  gray;
 }
 .content2 {
   width: 98%;

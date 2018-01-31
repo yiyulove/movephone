@@ -83,4 +83,35 @@ window.onload=function(){
 	}
 }
 	}
+	chumo();
+	function chumo(){
+	var startX;
+	var X;
+	var startX;
+	var banners=document.querySelector(".lunbotu")
+	var bann=document.querySelector(".ul1");
+	//移动banner
+		banners.addEventListener("touchstart",function(e){
+				startx=e.touches[0].clientX;
+		})
+		banners.addEventListener("touchmove",function(e){
+				x=e.touches[0].clientX;
+				var result=x-startx;
+			     fun(result)
+		})
+		banners.addEventListener("touchend",function(e){
+		//		endx=e.touches[0].clientX;
+				ul.style.transition="all 0.3s";
+		})
+			//触摸结束后进行对banner图片的移动
+			//按照值得正负形进行可对banner移动方向判定
+			function fun(jieshou){
+				if(jieshou>0)
+				{
+					console.log(jieshou);
+					bann.style.transition="none";
+					bann.style.marginLeft=parseInt(bann.style.marginLeft+jieshou)+"px";
+				}
+			}
+	}
 }
