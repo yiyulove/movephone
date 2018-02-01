@@ -115,7 +115,7 @@ function bannerTouch() {
 		var offsetX = oUl.offsetLeft;
 		
 		
-		touchStartX = e.touches[0].clientX; 	// 触摸开始的内容
+		 摸开始的内容
 		
 		startX = e.touches[0].clientX;	// 起始点x坐标值
 		startX -= offsetX;				// 加上初始ul的偏移值
